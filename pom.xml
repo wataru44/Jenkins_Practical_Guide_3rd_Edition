@@ -21,6 +21,14 @@
       <scope>provided</scope>
     </dependency>
     
+    <distributionManagement>
+      <repository>
+        <id>releases</id>
+        <url>http://localhost:8081/repository/test/</url>
+      </repository>
+    </distributionManagement>
+    
+    
     <!-- JUnit Libraries -->
     <dependency>
       <groupId>junit</groupId>
